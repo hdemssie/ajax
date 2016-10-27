@@ -11,3 +11,4 @@
 /// <reference path="../bower_components/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" />
 /// <reference path="ngapp/app.js" />
 /// <reference path="ngapp/controllers/controllers.js" />
+/// <reference path="ngapp/services/services.js" />

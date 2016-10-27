@@ -1,6 +1,6 @@
 <h2>Home</h2>
 <ul>
-    <li ng-repeat="product in controller.products">
-        {{product.name}}{{product.price}}{{product.tax}}
+    <li ng-repeat="item in controller.products|filter:'t'">
+        Name: {{item.name}}{{item.price}}{{item.tax}} Tax:{{item.tax|currency}}
      </li>
 </ul>

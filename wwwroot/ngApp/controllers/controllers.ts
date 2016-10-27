@@ -7,8 +7,18 @@ namespace ajax.Controllers {
                 price: 1.55,
                 tax: TaxService.CalculateTax(1.89)
 
-            }]
-
+            },
+                {
+                    name: `pasta`,
+                    price: .99,
+                    tax: TaxService.CalculateTax(.99)
+                },
+                {
+                    name: `steak`,
+                    price: 6.99,
+                    tax: TaxService.CalculateTax(6.99)
+                }
+               ]
         }
 
         /*  constructor($http: ng.IHttpService) {
@@ -20,5 +30,5 @@ namespace ajax.Controllers {
           */
     }
 
-        angular.module(`ajax`).controller(`ProductsController`, ProductsController);
+    angular.module(`ajax`).controller(`ProductsController`, ProductsController);
 } 
